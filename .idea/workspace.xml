@@ -25,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/Git"
+    "last_opened_file_path": "C:/Users/User/Desktop/Git/mylogs.log"
   }
 }]]></component>
   <component name="RunManager">
@@ -61,5 +61,8 @@
       <updated>1661596339531</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
 </project>
