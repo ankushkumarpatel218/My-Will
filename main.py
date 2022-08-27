@@ -1,3 +1,2 @@
-str1 = "Hello World!".lower()
-print(str1)
-# this file has been changed by ankush
+print("Hello World!")
+# It will print 'Hello World'
