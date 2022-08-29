@@ -39,7 +39,6 @@ if len(name) == len(issue):
 
     new_df1 = pandas.read_csv("Library2.csv")
     new_df2 = new_df1.sort_values(['Total number of issues'], ascending=False)
-    print(new_df2)
     new_df2.rename(columns={"Unnamed: 0": "Book Name"}, inplace=True)
     new_df2.to_csv("Library3.csv",index=False)
 else:
@@ -49,13 +48,9 @@ with open("Library3.csv", 'r') as csvfile:
     read = csv.reader(csvfile)
 
     header = next(read)
-    print(header)
     table = PrettyTable(header)
-    print(table)
     for i in read:
-        print(i)
         table.add_row(i)
     print(table)
 
 csvfile.close()
-print(Data)
