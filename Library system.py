@@ -24,6 +24,7 @@ if len(name) == len(issue):
             Data[name[i]] = 0
 
         Data[name[i]] += issue[i]
+
     new_dict = {k: [v] for k, v in Data.items()}
 
     df = pandas.DataFrame(new_dict)
@@ -31,6 +32,8 @@ if len(name) == len(issue):
     new_df = df.T
 
     new_df.rename(columns={0:"Total number of issues"},inplace=True)
+
+
     new_df.to_csv("Library2.csv")
 
 
@@ -38,6 +41,8 @@ if len(name) == len(issue):
     new_df2 = new_df1.sort_values(['Total number of issues'], ascending=False)
     new_df2.rename(columns={"Unnamed: 0": "Book Name"}, inplace=True)
     new_df2.to_csv("Library3.csv",index=False)
+else:
+    print("Data is incomplete, Please Check Your Csv file")
 
 with open("Library3.csv", 'r') as csvfile:
     read = csv.reader(csvfile)
