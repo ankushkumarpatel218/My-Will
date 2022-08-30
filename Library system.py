@@ -51,5 +51,3 @@ with open("Library3.csv", 'r') as csvfile:
     for i in read:
         table.add_row(i)
     print(table)
-
-csvfile.close()
