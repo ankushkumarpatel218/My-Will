@@ -4,16 +4,16 @@ from prettytable import PrettyTable
 
 Book_name = []
 issue = []
-with open("Library1.csv",'r') as csv1:
+with open("Library1.csv", 'r') as csv1:
     read = csv.DictReader(csv1)
     for i in read:
-        Name=i["Book name"].title()
+        Name = i["Book name"].title()
         Book_name.append(Name)
         Issue = i["number of issues"]
         issue.append(Issue)
 
-for I in range(len(issue)):
-    issue[I] = int(issue[I])
+for j in range(len(issue)):
+    issue[j] = int(issue[j])
 
 Data = {}
 
@@ -30,16 +30,14 @@ if len(Book_name) == len(issue):
 
     new_df = df.T
 
-    new_df.rename(columns={0:"Total number of issues"},inplace=True)
-
+    new_df.rename(columns={0: "Total number of issues"}, inplace=True)
 
     new_df.to_csv("Library2.csv")
-
 
     new_df1 = pandas.read_csv("Library2.csv")
     new_df2 = new_df1.sort_values(['Total number of issues'], ascending=False)
     new_df2.rename(columns={"Unnamed: 0": "Book Name"}, inplace=True)
-    new_df2.to_csv("Library3.csv",index=False)
+    new_df2.to_csv("Library3.csv", index=False)
 else:
     print("Data is incomplete, Please Check Your Csv file")
 
