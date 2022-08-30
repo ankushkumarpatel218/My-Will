@@ -1,15 +1,14 @@
 import csv
-
 import pandas
 from prettytable import PrettyTable
 
-name = []
+Book_name = []
 issue = []
 with open("Library1.csv",'r') as csv1:
     read = csv.DictReader(csv1)
     for i in read:
         Name=i["Book name"].title()
-        name.append(Name)
+        Book_name.append(Name)
         Issue = i["number of issues"]
         issue.append(Issue)
 
@@ -18,12 +17,12 @@ for I in range(len(issue)):
 
 Data = {}
 
-if len(name) == len(issue):
-    for i in range(len(name)):
-        if name[i] not in Data:
-            Data[name[i]] = 0
+if len(Book_name) == len(issue):
+    for i in range(len(Book_name)):
+        if Book_name[i] not in Data:
+            Data[Book_name[i]] = 0
 
-        Data[name[i]] += issue[i]
+        Data[Book_name[i]] += issue[i]
 
     new_dict = {k: [v] for k, v in Data.items()}
 
