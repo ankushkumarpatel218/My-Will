@@ -1,10 +1,13 @@
 def Fahrenheit(temp):
-    far = (temp * 9/5) + 32
-    return far
+    Fahren = (temp * 9 / 5) + 32
+    return Fahren
+
 
 def Celsius(temp):
-    cel =(temp * 5/9) - 32
-    return cel
+    celsius = (temp * 5 / 9) - 32
+    return celsius
+
+
 print("1. Celsius to farenheit\n2. Farenheit to Celsius\n")
 while True:
     ch = input("enter your choice: ")
@@ -20,4 +23,3 @@ while True:
         break
     else:
         continue
-

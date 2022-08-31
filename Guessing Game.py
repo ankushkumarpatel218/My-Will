@@ -1,8 +1,7 @@
 import random
 
-rand_num = random.randint(1,100)
+rand_num = random.randint(1, 100)
 guesses = 0
-
 while True:
     user = int(input("user number:"))
     if user != rand_num:
