@@ -16,4 +16,3 @@ while True:
     else:
         print(f"Correct! You guessed it right in {guesses} guesses\n")
         break
-
