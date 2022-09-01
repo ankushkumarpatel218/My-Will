@@ -72,7 +72,7 @@ if __name__ == "__main__":
         elif "open youtube" in Query:
             webbrowser.open("https://www.youtube.com")
 
-        elif "stop friday" in Query:
+        elif "stop jarvis" in Query:
             speak("Quiting... Bye Sir have a Good Day!")
             break
 
