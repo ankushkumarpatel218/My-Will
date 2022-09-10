@@ -69,13 +69,17 @@ for i in range(3):
 if list2.count("You lose!") == 2:
     speak("you lost the match !")
     print("you lost the match !")
-elif list2.count("You Won!") == 2:
+elif list2.count("You Won!") <= 2:
     speak("you Won the match !")
     print("you Won the match !")
 elif list2.count("Draw!") == 1 and list2.count("You Won!") == 1 and list2.count("You lose!") == 1:
     speak("No one Wins!")
     print("No one Wins!")
-elif list2.count("Draw!") == 2 or list2.count("You Won!") == 3:
+elif list2.count("Draw!") == 3:
     speak("No one Wins!")
     print("No one Wins!")
+
+elif list2.count("You lose!") == 3:
+    speak("you lost the match !")
+    print("you lost the match !")
 
