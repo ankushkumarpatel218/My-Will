@@ -43,7 +43,6 @@ else:
 
 with open("Library3.csv", 'r') as csvfile:
     read = csv.reader(csvfile)
-
     header = next(read)
     table = PrettyTable(header)
     for i in read:

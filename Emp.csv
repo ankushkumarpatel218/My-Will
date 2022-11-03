@@ -1,0 +1,4 @@
+EmpID,EName,Salary,DeptID,Gender
+E1001,Ankush,80000.0,D01,M
+E1002,Sethy,85000.0,D02,M
+E1003,Gitika,93000.0,D03,F
