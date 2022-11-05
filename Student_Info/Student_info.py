@@ -1,0 +1,47 @@
+from Add_student import *
+from Show_stu import *
+from Update_stu import *
+from Delete_stu import *
+from Show_num_stu import *
+from show_num_male_female_stu import *
+
+
+def main():
+    print("""\n 1.Add New Student Data 
+ 2.Display Particular Student Data
+ 3.Update Particular Student Data
+ 4.Delete Particular Student Data
+ 5.Show number student in particular class
+ 6.Show number of Male/Female student in particular Class\n""")
+    choice = input("Enter Task No:")
+    while True:
+        if choice == '1':
+            add_stu()
+            main()
+
+        elif choice == '2':
+            show_stu()
+            main()
+
+        elif choice == '3':
+            update_stu()
+            main()
+
+        elif choice == '4':
+            del_stu()
+            main()
+
+        elif choice == '5':
+            show_num_stu()
+            main()
+
+        elif choice == '6':
+            show_num_male_female_stu()
+            main()
+
+        else:
+            print("wrong choice........")
+
+
+if __name__ == '__main__':
+    main()

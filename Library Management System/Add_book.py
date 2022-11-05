@@ -8,7 +8,7 @@ def add_book():
         qry3 = input('enter Book ID:')
         qry4 = input('enter Publisher_name')
         qry5 = input('enter pubID')
-        cur.execute(f'''insert into library(
+        cur.execute(f'''insert into library(acc_no, book_name, bookId
                     values("{qry1}","{qry2}","{qry3}", "{qry4}", "{qry5}")''')
         con.commit()
 
