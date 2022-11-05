@@ -4,6 +4,7 @@ from Update_stu import *
 from Delete_stu import *
 from Show_num_stu import *
 from show_num_male_female_stu import *
+from Show_all_student import *
 
 
 def main():
@@ -12,7 +13,8 @@ def main():
  3.Update Particular Student Data
  4.Delete Particular Student Data
  5.Show number student in particular class
- 6.Show number of Male/Female student in particular Class\n""")
+ 6.Show number of Male/Female student in particular Class
+ 7.Show all students data\n""")
     choice = input("Enter Task No:")
     while True:
         if choice == '1':
@@ -39,8 +41,14 @@ def main():
             show_num_male_female_stu()
             main()
 
+        elif choice == '7':
+            show_all_stu()
+            main()
+
+
         else:
-            print("wrong choice........")
+            print("wrong choice...\npls try again!")
+            break
 
 
 if __name__ == '__main__':

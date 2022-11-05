@@ -8,3 +8,4 @@ def del_stu():
     sql = f"delete from Student_info where admission_no = '{admi}'"
     cur.execute(sql)
     con.commit()
+    print('\n The Data Successfully Deleted!')
