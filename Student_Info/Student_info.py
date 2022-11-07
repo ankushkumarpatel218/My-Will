@@ -8,13 +8,15 @@ from Show_all_student import *
 
 
 def main():
-    print("""\n 1.Add New Student Data 
- 2.Display Particular Student Data
- 3.Update Particular Student Data
- 4.Delete Particular Student Data
- 5.Show number student in particular class
- 6.Show number of Male/Female student in particular Class
- 7.Show all students data\n""")
+    print("""*************************************************************
+ 1.Add New Student Data                                     |
+ 2.Display Particular Student Data                          |
+ 3.Update Particular Student Data                           |
+ 4.Delete Particular Student Data                           |
+ 5.Show number student in particular class                  | 
+ 6.Show number of Male/Female student in particular Class   | 
+ 7.Show all students data                                   |
+ ************************************************************\n""")
     choice = input("Enter Task No:")
     while True:
         if choice == '1':

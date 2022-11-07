@@ -1,26 +1,45 @@
-print('1. Add a new book ')
-print('2. issues a book')
-print('3. Remove a book data ')
-print('4. update the book details')
-print('5. Show particular data')
-choice = input('\nenter the option number:')
+from Add_book import *
+from Issue_book import *
 
-if choice == '1':
-    # function1 - add function
-    pass
+def return_book():
+    bookid = input('Enter Book Id number: ')
 
-elif choice == '2':
-    pass
-    #function2 - issue function
+def main():
+    print('\n1. Add a new book ')
+    print('2. issues a book')
+    print('3. return a book')
+    print('4. Remove a book data ')
+    print('5. update the book details')
+    print('6. Show the available books')
+    print('7. Show the books published by particular publisher')
+    print('8. Show the books of Particular Author')
 
-elif choice == '3':
-    pass
-    # function3 - remove function
+    choice = input('\nEnter the option number:')
 
-elif choice == '4':
-    pass
-    # function4 - update function
+    if choice == '1':
+        add_book()
+        main()
 
-elif choice == '5':
-    pass
-    #function5 - show particular data , show function
+    elif choice == '2':
+        issue_book()
+        main()
+        #function2 - issue function
+
+    elif choice == '3':
+        pass
+        main()
+        # function3 - remove function
+
+    elif choice == '4':
+        pass
+        main()
+        # function4 - update function
+
+    elif choice == '5':
+        pass
+        main()
+        #function5 - show particular data , show function
+
+
+if __name__ == "__main__":
+    main()
