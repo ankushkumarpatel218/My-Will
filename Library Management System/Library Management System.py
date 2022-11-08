@@ -1,8 +1,12 @@
 from Add_book import *
 from Issue_book import *
-
-def return_book():
-    bookid = input('Enter Book Id number: ')
+from Return_book import *
+from Remove_book import *
+from updt_book import *
+from Show_available_books import *
+from Show_Pub_Books import *
+from show_author_books import *
+from Show_not_returned_book import *
 
 def main():
     print('\n1. Add a new book ')
@@ -11,8 +15,9 @@ def main():
     print('4. Remove a book data ')
     print('5. update the book details')
     print('6. Show the available books')
-    print('7. Show the books published by particular publisher')
-    print('8. Show the books of Particular Author')
+    print('7. Show the all books published by particular publisher')
+    print('8. Show the all books of Particular Author')
+    print('9. Show the all Books Which are not Returned yet')
 
     choice = input('\nEnter the option number:')
 
@@ -26,20 +31,40 @@ def main():
         #function2 - issue function
 
     elif choice == '3':
-        pass
+        return_book()
         main()
-        # function3 - remove function
+        # function3 - return function
 
     elif choice == '4':
-        pass
+        Remove_book()
         main()
-        # function4 - update function
+        # function4 - remove function
 
     elif choice == '5':
-        pass
+        update_book()
         main()
-        #function5 - show particular data , show function
+        #function5 - Update function
 
+    elif choice == '6':
+        show_avl_books()
+        main()
+        #function6 - show all Available Books
+
+
+    elif choice == '7':
+        show_pub_books()
+        main()
+        #function7 - Show the all books published by particular publisher
+
+    elif choice == '8':
+        show_aut_books()
+        main()
+        #function8 - Show the all books of Particular Author
+
+    elif choice == '9':
+        show_not_return_book()
+        main()
+        # function9 - Show the all Books Which are not Returned yet
 
 if __name__ == "__main__":
     main()

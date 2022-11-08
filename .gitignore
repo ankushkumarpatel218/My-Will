@@ -1,3 +1,5 @@
 /mylogs.log
 *.log
 *.pdf
+*.xml
+*.iml

@@ -3,6 +3,7 @@ con = sqlite3.connect("Student.db")
 
 
 def update_stu():
+    cur = con.cursor()
     admi = input("Enter Admission number: ")
     print("""1.admission_no
     2.Student_Name
@@ -18,7 +19,6 @@ def update_stu():
         sql = f"""update Student_info
                 set Admission_no ='{new_data}'
                 where admission_no = '{admi}'"""
-        cur = con.cursor()
         cur.execute(sql)
         con.commit()
         print(f'\nData Updated Successfully!\n')
