@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d94af4c5-42f9-4e99-a43f-87dff2763a0d" name="Changes" comment="adding project ( Library Management System.py )">
-      <change afterPath="$PROJECT_DIR$/Library Management System/Show_Register.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Add_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Add_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Issue_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Issue_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Library Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Management System.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Library.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Remove_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Remove_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Return_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Return_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Show_not_returned_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Show_not_returned_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Sqlite3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Sqlite3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/show_author_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/show_author_books.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/updt_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/updt_book.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667896118260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding project ( Library Management System.py )">
+      <created>1667921215429</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921215429</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">

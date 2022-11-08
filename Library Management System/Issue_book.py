@@ -8,7 +8,11 @@ def issue_book():
     print("**********************\n"
           "Entry of Issuing Book-\n"
           "**********************")
-    acc_no = input('Enter the accession number( 4-digit ):').strip()
+    data1 = f"select * from Register"
+    cur.execute(data1)
+    res = cur.fetchall()
+    num_data = len(res)
+    acc_no = 1000 + num_data
     issuerID = input("Enter the Issuer Id ( 5-digit ): ").strip()
     issuerName = input("Enter the Issuer's Name: ").title().strip()
     now = datetime.datetime.now()
@@ -22,6 +26,7 @@ def issue_book():
     data = cur.fetchone()
     book_name = data[1]
     if data[6] == "Available":
+
         insert = f"""insert into Register 
                     values('{acc_no}', '{issuerName}', '{issuerID}', '{book_name}',
                      '{book_id}', '{status}', '{issued_date}', '{Return}')"""
