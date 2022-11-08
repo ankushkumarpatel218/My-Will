@@ -7,7 +7,7 @@ def update_book():
     print("*******************\n"
           "Updating Book Data-\n"
           "*******************")
-    book_id = input('Enter Book ID ( 4-digit ): ')
+    book_id = input('Enter Book ID ( 4-digit ): ').strip()
     print("""    1.Accession number
     2.Book name
     3.BookID
@@ -15,30 +15,30 @@ def update_book():
     5.Publisher Name
     6.Publisher ID""")
 
-    choice = input("Enter Which Data You Want to Update: ")
+    choice = input("Enter Which Data You Want to Update: ").strip()
 
     if choice == '1':
-        Acc_no = input("Enter the Correct accession number: ")
+        Acc_no = input("Enter the Correct accession number: ").strip()
         sql = f"""update Library set
-                values Accession_no = '{Acc_no}'
+                Accession_no = '{Acc_no}'
                 where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()
         print("\nData Updated Successfully!")
 
     elif choice == '2':
-        book_name = input("Enter the Updated Book Name: ")
+        book_name = input("Enter the Updated Book Name: ").title().strip()
         sql = f"""update Library set
-                        values Book_name = '{book_name}'
+                        Book_name = '{book_name}'
                         where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()
         print("\nData Updated Successfully!")
 
     elif choice == '3':
-        New_book_Id = input("Enter The Correct Book ID: ")
-        sql = f"""update Library set
-                        values BookID = '{New_book_Id}'
+        New_book_Id = input("Enter The Correct Book ID: ").strip()
+        sql = f"""update Library
+                        set BookID = '{New_book_Id}'
                         where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()
@@ -46,27 +46,27 @@ def update_book():
 
 
     elif choice == '4':
-        author = input("Enter the Updated Author name:  ")
+        author = input("Enter the Updated Author name:  ").title().strip()
         sql = f"""update Library set
-                        values Author= '{author}'
+                        Author= '{author}'
                         where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()
         print("\nData Updated Successfully!")
 
     elif choice == '5':
-        pub_name = input("Enter Updated Publisher Name: ")
+        pub_name = input("Enter Updated Publisher Name: ").title().strip()
         sql = f"""update Library set
-                        values Pub_Name = '{pub_name}'
+                         Pub_Name = '{pub_name}'
                         where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()
         print("\nData Updated Successfully!")
 
     elif choice == '6':
-        pub_id = input("Enter the Correct Publisher ID ( 6-digit ): ")
+        pub_id = input("Enter the Correct Publisher ID ( 6-digit ): ").strip()
         sql = f"""update Library set
-                        values PubID = '{pub_id}'
+                        PubID = '{pub_id}'
                         where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()

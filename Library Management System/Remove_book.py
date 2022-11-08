@@ -7,7 +7,7 @@ def Remove_book():
     print("*********************\n"
           "Removing a Book Data-\n"
           "*********************")
-    book_id = input("Enter the book ID ( 4-Digit ): ")
+    book_id = input("Enter the book ID ( 4-Digit ): ").strip()
     delete = f'delete from Library where BookID = "{book_id}"'
     cur.execute(delete)
     con.commit()

@@ -8,14 +8,14 @@ def issue_book():
     print("**********************\n"
           "Entry of Issuing Book-\n"
           "**********************")
-    acc_no = input('Enter the accession number( 4-digit ):')
-    issuerID = input("Enter the Issuer Id ( 5-digit ): ")
-    issuerName = input("Enter the Issuer's Name: ")
+    acc_no = input('Enter the accession number( 4-digit ):').strip()
+    issuerID = input("Enter the Issuer Id ( 5-digit ): ").strip()
+    issuerName = input("Enter the Issuer's Name: ").title().strip()
     now = datetime.datetime.now()
     status = 'Issued'
     Return = 'None'
     issued_date = now.strftime(f"%d/%m/{20}%y")
-    book_id= input('Enter Book ID ( 4-digit ):')
+    book_id= input('Enter Book ID ( 4-digit ):').strip()
     sql = f"""select * from Library where BookID = '{book_id}'"""
     cur.execute(sql)
     con.commit()
@@ -27,7 +27,7 @@ def issue_book():
                      '{book_id}', '{status}', '{issued_date}', '{Return}')"""
         cur.execute(insert)
         update = f"""update Library set Status = 'Issued'
-                    where Book_ID = {book_id}"""
+                    where BookID = '{book_id}'"""
         cur.execute(update)
         con.commit()
         print("\nThe Book Issued Successfully!\n")

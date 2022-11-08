@@ -9,7 +9,7 @@ def show_aut_books():
     print("*****************************************\n"
           "Show the all books of Particular Author -\n"
           "*****************************************")
-    author_name = input("Enter the Author Name: ").title()
+    author_name = input("Enter the Author Name: ").title().strip()
     sql = f"""Select * from library 
                 where author = '{author_name}'"""
     cur.execute(sql)

@@ -9,7 +9,7 @@ def show_not_return_book():
           "Show the all books which are not returned -\n"
           "******************************************")
     sql = f"""Select * from Register 
-            where Return_Date = 'None'"""
+            where Status = 'Issued'"""
     cur.execute(sql)
     res = cur.fetchall()
     con.commit()

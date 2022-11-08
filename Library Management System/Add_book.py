@@ -7,9 +7,9 @@ def add_book():
     print("*********************\n"
           "Enter New Book Data:\n"
           "*********************")
-    qry1 = input('Enter Accession Number ( 4-digit ): ')
-    qry2 = input('Enter Book name:').title()
-    book_id= input('Enter Book ID ( 4-digit ):')
+    acc_no = input('Enter Accession Number ( 4-digit ): ').strip()
+    Book_name = input('Enter Book name:').title().strip()
+    book_id= input('Enter Book ID ( 4-digit ):').strip()
     sql = f"select * from Library where BookID = '{book_id}'"
     cur.execute(sql)
     res = cur.fetchall()
@@ -17,11 +17,11 @@ def add_book():
     if Len1 == 1:
         print(f"\nThis book data is already in the table! ")
     else:
-        author = input("Enter the Author of the book: ")
-        qry4 = input('Enter Publisher_name: ').title()
-        qry5 = input('Enter pubID ( 6-digit ): ')
-        sql = f'''insert into library(Accession_no, Book_Name, BookID, Pub_Name, PubID, Status)
-                    values("{qry1}","{qry2}","{book_id}","{author}","{qry4}", "{qry5}", 'Available')'''
+        author = input("Enter the Author of the book: ").title().strip()
+        Pub_name = input('Enter Publisher_name: ').title().strip()
+        PubID = input('Enter pubID ( 6-digit ): ').strip()
+        sql = f'''insert into library
+                    values("{acc_no}","{Book_name}","{book_id}","{author}","{Pub_name}", "{PubID}", 'Available')'''
         cur.execute(sql)
         con.commit()
         print("\n Data Entered Successfully!\n")

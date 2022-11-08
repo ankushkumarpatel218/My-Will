@@ -4,35 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d94af4c5-42f9-4e99-a43f-87dff2763a0d" name="Changes" comment="adding project ( Student_info )">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/Remove_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/Return_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/Show_available_books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/Sqlite3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/show_author_books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management System/updt_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TKinter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pht1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d94af4c5-42f9-4e99-a43f-87dff2763a0d" name="Changes" comment="adding project ( Library Management System.py )">
+      <change afterPath="$PROJECT_DIR$/Library Management System/Show_Register.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Add_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Add_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Issue_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Issue_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Library Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Management System.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Library.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Mysqlite3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mysqlite3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/One for All.py" beforeDir="false" afterPath="$PROJECT_DIR$/One for All.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Update_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Update_stu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Remove_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Remove_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Return_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Return_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Show_not_returned_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Show_not_returned_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Sqlite3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Sqlite3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/show_author_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/show_author_books.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/updt_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/updt_book.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Dw3V4KnPEhpjdKijiNkxQUKAJp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -74,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "false",
     "last_opened_file_path": "C:/Users/User/Desktop/New folder (3)/My-Will/Library Management System",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -235,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667815865854</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding project ( Library Management System.py )">
+      <created>1667895913675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667895913675</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding project ( Library Management System.py )">
+      <created>1667896118260</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667896118260</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -256,6 +255,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding py" />
     <MESSAGE value="adding project ( Student_info )" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding project ( Student_info )" />
+    <MESSAGE value="adding project ( Library Management System.py )" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding project ( Library Management System.py )" />
   </component>
 </project>

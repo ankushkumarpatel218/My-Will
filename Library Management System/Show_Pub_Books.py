@@ -12,7 +12,7 @@ def show_pub_books():
           "Show all Books Publish by particular Publisher -\n"
           "************************************************")
 
-    pub_id = input("Enter The Publisher ID ( 6-Digits ): ")
+    pub_id = input("Enter The Publisher ID ( 6-Digits ): ").strip()
     sql = f"""Select * from Library
                where PubID = '{pub_id}'"""
     cur.execute(sql)
