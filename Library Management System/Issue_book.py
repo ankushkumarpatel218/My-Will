@@ -12,7 +12,7 @@ def issue_book():
     cur.execute(data1)
     res = cur.fetchall()
     num_data = len(res)
-    acc_no = 1000 + num_data
+    acc_no = 1001 + num_data
     issuerID = input("Enter the Issuer Id ( 5-digit ): ").strip()
     issuerName = input("Enter the Issuer's Name: ").title().strip()
     now = datetime.datetime.now()
