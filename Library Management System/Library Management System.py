@@ -9,15 +9,17 @@ from show_author_books import *
 from Show_not_returned_book import *
 
 def main():
-    print('\n1. Add a new book ')
-    print('2. issues a book')
-    print('3. return a book')
+    print('**************************************')
+    print('1. Add a new book ')
+    print('2. Issues a book')
+    print('3. Return a book')
     print('4. Remove a book data ')
     print('5. update the book details')
     print('6. Show the available books')
     print('7. Show the all books published by particular publisher')
     print('8. Show the all books of Particular Author')
-    print('9. Show the all Books Which are not Returned yet')
+    print('9. Show the all Books Which are not Returned yet\n'
+          '********************************************************')
 
     choice = input('\nEnter the option number:')
 
