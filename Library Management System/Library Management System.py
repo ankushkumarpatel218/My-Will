@@ -92,7 +92,7 @@ def library():
     print("*********************************\n"
           "Enter Your Password Library Admin: -\n"
           "*********************************")
-    password = input(">>> ").lower().strip()
+    password = input(">>> ").title().strip()
     with open("Library Admin Password.txt", "r") as admin:
         read1 = admin.read()
         if password == read1:

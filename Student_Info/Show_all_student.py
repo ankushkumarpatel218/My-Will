@@ -9,7 +9,7 @@ def show_all_stu():
     cur.execute('SELECT * FROM Student_info')
     con.commit()
     header = ["admission_no","Student_Name","Class", "Father_Name",
-              "Mother_Name", "Date_of_Birth","Phone_Number", "Gender"]
+              "Mother_Name", "Date_of_Birth","Admission_Date","Phone_Number","Aadhar_Card_Number", "Gender"]
     res = cur.fetchall()
     table = PrettyTable(header)
     for i in res:

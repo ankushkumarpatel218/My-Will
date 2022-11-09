@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d94af4c5-42f9-4e99-a43f-87dff2763a0d" name="Changes" comment="adding project ( Library Management System.py )">
-      <change afterPath="$PROJECT_DIR$/Library Management System/Library Admin Password.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Payroll Managment System/Payroll system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Payroll Managment System/payroll.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student_Info/Student_info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Add_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Add_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Issue_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Issue_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Library Admin Password.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Admin Password.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Library Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Management System.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Library.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Return_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Return_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Search_for_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Search_for_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Show_Pub_Books.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Show_available_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Show_available_books.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/show_author_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/show_author_books.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/updt_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/updt_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Remove_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Remove_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Add_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Add_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Delete_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Delete_stu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Show_all_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_all_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Show_num_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_num_stu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Student.db" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Student.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/Student_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Student_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Update_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Update_stu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/show_num_male_female_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/show_num_male_female_stu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667926495787</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding project ( Library Management System.py )">
+      <created>1668008151492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668008151492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding project ( Library Management System.py )">
+      <created>1668011181429</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668011181429</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -13,8 +13,8 @@ def main():
  2.Display Particular Student Data                          |
  3.Update Particular Student Data                           |
  4.Delete Particular Student Data                           |
- 5.Show all student in particular class                  | 
- 6.Show all Male/Female student in particular Class   | 
+ 5.Show all student in particular class                     | 
+ 6.Show all Male/Female student in particular Class         | 
  7.Show all students data                                   |
  ************************************************************\n""")
     choice = input("Enter Task No:")
@@ -52,5 +52,19 @@ def main():
             break
 
 
-if __name__ == '__main__':
-    main()
+def student():
+    print("********************************************\n"
+          "Enter Your Password of Student Info. System: -\n"
+          "********************************************")
+    password = input(">>> ").title().strip()
+    with open("Student_info.txt", "r") as admin:
+        read1 = admin.read()
+        if password == read1:
+            main()
+        else:
+            print("\nWrong Password! Pls Try again\n")
+            student()
+
+
+if __name__ == "__main__":
+    student()
