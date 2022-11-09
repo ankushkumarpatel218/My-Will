@@ -15,7 +15,7 @@ def return_book():
     cur.execute(sql)
     res = cur.fetchone()
     status = 'Issued'
-    if res[6] == status:
+    if res[5] == status:
         issuer_id = input("Enter Issuer ID ( 5-Digit ): ").strip()
         Return = f"""Update Register set Status = 'Returned', Return_Date = '{return_date}' 
                         where BookID = '{book_id}' and Issuer_ID = '{issuer_id}'"""

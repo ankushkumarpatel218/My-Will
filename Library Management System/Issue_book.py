@@ -24,8 +24,8 @@ def issue_book():
     cur.execute(sql)
     con.commit()
     data = cur.fetchone()
-    book_name = data[1]
-    if data[6] == "Available":
+    book_name = data[0]
+    if data[5] == "Available":
 
         insert = f"""insert into Register 
                     values('{acc_no}', '{issuerName}', '{issuerID}', '{book_name}',

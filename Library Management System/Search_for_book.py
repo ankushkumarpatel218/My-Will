@@ -11,7 +11,7 @@ def search_book():
     cur.execute(sql)
     res = cur.fetchall()
     num_data = len(res)
-    header = ["Accession_no", "Book_name", "BookID", "Author", "Publisher_Name", "PubID", "Status"]
+    header = ["Book_name", "BookID", "Author", "Publisher_Name", "PubID", "Status"]
     table = PrettyTable(header)
     for i in res:
         data = list(i)

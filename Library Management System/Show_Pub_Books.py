@@ -22,7 +22,6 @@ def show_pub_books():
     table = PrettyTable(header)
     for i in res:
         data = list(i)
-        data.pop(0)
         data.pop(-1)
         table.add_row(data)
     print(table)

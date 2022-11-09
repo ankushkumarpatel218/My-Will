@@ -14,7 +14,7 @@ def show_avl_books():
     cur.execute(sql)
     res = cur.fetchall()
     con.commit()
-    header = ["Accession_no", "Book_name", "BookID", "Author", "Publisher_Name", "PubID", "Status"]
+    header = ["Book_name", "BookID", "Author", "Publisher_Name", "PubID", "Status"]
     table = PrettyTable(header)
     for i in res:
         data = list(i)

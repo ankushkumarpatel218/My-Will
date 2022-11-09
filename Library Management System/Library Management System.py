@@ -12,7 +12,7 @@ from Search_for_book import *
 
 
 def main():
-    print('**************************************')
+    print('******************************************')
     print('1. Add a new book ')
     print('2. Issues a book')
     print('3. Return a book')
@@ -88,5 +88,19 @@ def main():
         main()
 
 
+def library():
+    print("*********************************\n"
+          "Enter Your Password Library Admin: -\n"
+          "*********************************")
+    password = input(">>> ").lower().strip()
+    with open("Library Admin Password.txt", "r") as admin:
+        read1 = admin.read()
+        if password == read1:
+            main()
+        else:
+            print("\nWrong Password! Pls Try again\n")
+            library()
+
+
 if __name__ == "__main__":
-    main()
+    library()

@@ -8,20 +8,19 @@ def update_book():
           "Updating Book Data-\n"
           "*******************")
     book_id = input('Enter Book ID ( 4-digit ): ').strip()
-    print("""    1.Accession number
+    print("""    1.Publisher ID
     2.Book name
     3.BookID
     4.Author
-    5.Publisher Name
-    6.Publisher ID""")
+    5.Publisher Name""")
 
     choice = input("Enter Which Data You Want to Update: ").strip()
 
     if choice == '1':
-        Acc_no = input("Enter the Correct accession number: ").strip()
+        pub_id = input("Enter the Correct Publisher ID ( 6-digit ): ").strip()
         sql = f"""update Library set
-                Accession_no = '{Acc_no}'
-                where BookID = '{book_id}'"""
+                    PubID = '{pub_id}'
+                    where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()
         print("\nData Updated Successfully!")
@@ -63,14 +62,6 @@ def update_book():
         con.commit()
         print("\nData Updated Successfully!")
 
-    elif choice == '6':
-        pub_id = input("Enter the Correct Publisher ID ( 6-digit ): ").strip()
-        sql = f"""update Library set
-                        PubID = '{pub_id}'
-                        where BookID = '{book_id}'"""
-        cur.execute(sql)
-        con.commit()
-        print("\nData Updated Successfully!")
 
     else:
         print(f"The choice is incorrect!")

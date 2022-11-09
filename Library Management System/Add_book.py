@@ -7,9 +7,8 @@ def add_book():
     print("*********************\n"
           "Enter New Book Data:\n"
           "*********************")
-    acc_no = input('Enter Accession Number ( 4-digit ): ').strip()
-    Book_name = input('Enter Book name:').title().strip()
     book_id= input('Enter Book ID ( 4-digit ):').strip()
+    Book_name = input('Enter Book name:').title().strip()
     sql = f"select * from Library where BookID = '{book_id}'"
     cur.execute(sql)
     res = cur.fetchall()
@@ -21,7 +20,7 @@ def add_book():
         Pub_name = input('Enter Publisher_name: ').title().strip()
         PubID = input('Enter pubID ( 6-digit ): ').strip()
         sql = f'''insert into library
-                    values("{acc_no}","{Book_name}","{book_id}","{author}","{Pub_name}", "{PubID}", 'Available')'''
+                    values("{Book_name}","{book_id}","{author}","{Pub_name}", "{PubID}", 'Available')'''
         cur.execute(sql)
         con.commit()
         print("\n Data Entered Successfully!\n")
