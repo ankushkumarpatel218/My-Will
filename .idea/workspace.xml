@@ -1,296 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d94af4c5-42f9-4e99-a43f-87dff2763a0d" name="Changes" comment="adding project ( Library Management System.py )">
-      <change afterPath="$PROJECT_DIR$/Student_Info/Student_info.txt" afterDir="false" />
+    <list default="true" id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Add_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Add_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Issue_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Issue_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Library Admin Password.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Admin Password.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Library Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Management System.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Remove_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Remove_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Add_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Add_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Delete_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Delete_stu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Show_all_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_all_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Show_num_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_num_stu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Student.db" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Student.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Student_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Student_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Update_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Update_stu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/show_num_male_female_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/show_num_male_female_stu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2Dw3V4KnPEhpjdKijiNkxQUKAJp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2HQsSCCSRzvLoibFb3vETQp0mNO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/User/Desktop/New folder (3)/My-Will/Library Management System",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
-  },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
-    ]
+    "last_opened_file_path": "C:/Users/User/Desktop/My Nakama"
   }
 }]]></component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="My-Will" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="My-Will" />
-      </console-settings>
-    </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\New folder (3)\My-Will\Library Management System" />
-      <recent name="C:\Users\User\Desktop\New folder (3)\My-Will" />
-      <recent name="C:\Users\User\Desktop\New folder (3)\My-Will\Student_Info" />
-      <recent name="C:\Users\User\Desktop\Git" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\New folder (3)\My-Will\Library Management System" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Library Management System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="My-Will" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Library Management System" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Library Management System/Library Management System.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="One for All" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="My-Will" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/One for All.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Student_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="My-Will" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Student_Info" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Student_Info/Student_info.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Student_info" />
-        <item itemvalue="Python.One for All" />
-        <item itemvalue="Python.Library Management System" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d94af4c5-42f9-4e99-a43f-87dff2763a0d" name="Changes" comment="" />
-      <created>1661596339531</created>
+      <changelist id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="" />
+      <created>1668228638742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661596339531</updated>
+      <updated>1668228638742</updated>
     </task>
-    <task id="LOCAL-00001" summary="adding py">
-      <created>1667504181609</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667504181609</updated>
-    </task>
-    <task id="LOCAL-00002" summary="adding py">
-      <created>1667582367849</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1667582367849</updated>
-    </task>
-    <task id="LOCAL-00003" summary="adding project ( Student_info )">
-      <created>1667668357291</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1667668357291</updated>
-    </task>
-    <task id="LOCAL-00004" summary="adding project ( Student_info )">
-      <created>1667674975151</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1667674975151</updated>
-    </task>
-    <task id="LOCAL-00005" summary="adding project ( Student_info )">
-      <created>1667815865854</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1667815865854</updated>
-    </task>
-    <task id="LOCAL-00006" summary="adding project ( Library Management System.py )">
-      <created>1667895913675</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1667895913675</updated>
-    </task>
-    <task id="LOCAL-00007" summary="adding project ( Library Management System.py )">
-      <created>1667896118260</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1667896118260</updated>
-    </task>
-    <task id="LOCAL-00008" summary="adding project ( Library Management System.py )">
-      <created>1667921215429</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1667921215429</updated>
-    </task>
-    <task id="LOCAL-00009" summary="adding project ( Library Management System.py )">
-      <created>1667924113933</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1667924113933</updated>
-    </task>
-    <task id="LOCAL-00010" summary="adding project ( Library Management System.py )">
-      <created>1667924444956</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1667924444956</updated>
-    </task>
-    <task id="LOCAL-00011" summary="adding project ( Library Management System.py )">
-      <created>1667926495787</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1667926495787</updated>
-    </task>
-    <task id="LOCAL-00012" summary="adding project ( Library Management System.py )">
-      <created>1668008151492</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1668008151492</updated>
-    </task>
-    <task id="LOCAL-00013" summary="adding project ( Library Management System.py )">
-      <created>1668011181429</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1668011181429</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -302,12 +48,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding py" />
-    <MESSAGE value="adding project ( Student_info )" />
-    <MESSAGE value="adding project ( Library Management System.py )" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding project ( Library Management System.py )" />
   </component>
 </project>

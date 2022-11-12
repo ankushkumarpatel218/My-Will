@@ -1,3 +1,5 @@
+# Library Management System
+
 from Add_book import *
 from Issue_book import *
 from Return_book import *
@@ -92,7 +94,7 @@ def library():
     print("*********************************\n"
           "Enter Your Password Library Admin: -\n"
           "*********************************")
-    password = input(">>> ").title().strip()
+    password = input(">>> ").strip()
     with open("Library Admin Password.txt", "r") as admin:
         read1 = admin.read()
         if password == read1:
@@ -104,3 +106,4 @@ def library():
 
 if __name__ == "__main__":
     library()
+
