@@ -9,10 +9,10 @@ def search_type_room():
           "Show the Particular Type of Room -\n"
           "********************************")
     global Room_type
-    print("""1.Delux Room
-            2.Couple Room
-            3.Family Room
-            4.Normal Room""")
+    print("""    1.Delux Room
+    2.Couple Room
+    3.Family Room
+    4.Normal Room""")
     choice = input("Enter the Room type:")
     if choice == '1':
         Room_type = "Deluxe"

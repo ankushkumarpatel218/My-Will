@@ -8,9 +8,8 @@ def show_stu():
     print(" ")
     c = con.cursor()
     c.execute(f"select * from Student_info where admission_no = '{user}'")
-    con.commit()
     header = ["admission_no", "Student_Name", "Class", "Father_Name",
-              "Mother_Name", "Date_of_Birth", "Phone_Number", "Gender"]
+              "Mother_Name", "Date_of_Birth","Admission_Date", "Phone_Number","Aadhar_Card_Number", "Gender"]
     res = c.fetchall()
     table = PrettyTable(header)
     for i in res:

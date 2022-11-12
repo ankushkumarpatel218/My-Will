@@ -8,7 +8,7 @@ from Show_all_student import *
 
 
 def main():
-    print("""*************************************************************
+    print(""" ***********************************************************
  1.Add New Student Data                                     |
  2.Display Particular Student Data                          |
  3.Update Particular Student Data                           |
