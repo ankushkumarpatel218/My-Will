@@ -3,6 +3,7 @@ con = sqlite3.connect('Library.db')
 cur = con.cursor()
 
 
+
 def add_book():
     print("*********************\n"
           "Enter New Book Data:\n"
@@ -15,6 +16,7 @@ def add_book():
     len1 = len(res)
     if len1 == 1:
         print(f"\nThis book data is already in the table! ")
+        add_book()
     else:
         author = input("Enter the Author of the book: ").title().strip()
         pub_name = input('Enter Publisher_name: ').title().strip()

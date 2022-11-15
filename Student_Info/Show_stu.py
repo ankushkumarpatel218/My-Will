@@ -4,6 +4,9 @@ con = sqlite3.connect("Student.db")
 
 
 def show_stu():
+    print("****************************\n"
+          "Show Selected Students Data:\n"
+          "****************************")
     user = int(input("Enter student's Admission number: "))
     print(" ")
     c = con.cursor()
