@@ -3,6 +3,9 @@ con = sqlite3.connect("Student.db")
 
 
 def update_stu():
+    print("*********************\n"
+          "Update Students Data:\n"
+          "*********************")
     cur = con.cursor()
     admission_number = input("Enter Admission number of the Student: ")
     print("""1.admission_no

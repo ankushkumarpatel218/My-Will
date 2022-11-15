@@ -3,6 +3,9 @@ con = sqlite3.connect("Student.db")
 cur = con.cursor()
 
 def add_stu():
+    print("***********************\n"
+          "Enter New Student Data:\n"
+          "***********************")
     global Class
     admi = input("Enter Admission number ( 4-Digits ): ").strip()
     name = input("Enter Student Name:").title().strip()

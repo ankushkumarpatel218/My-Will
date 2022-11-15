@@ -4,6 +4,9 @@ con = sqlite3.connect("Student.db")
 
 
 def show_num_male_female_stu():
+    print("*****************************************\n"
+          "Show Number of Male/Female Students Data:\n"
+          "*****************************************")
     global Class
     cur = con.cursor()
     print("""*****************

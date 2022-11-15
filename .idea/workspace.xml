@@ -4,24 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="python">
+    <list default="true" id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="Add Student_info.py">
+      <change afterPath="$PROJECT_DIR$/Employee management system.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Add_Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Emp_com_dept.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Emp_com_role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Promote_Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Remove_Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Search_Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee management system/Update_Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Add_room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Check_in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Check_out.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Hotel Management System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Remove_room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Search_for_Room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Show_Register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Show_all_Available_room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System/Show_type_Room.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee management system/Employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/Employee management system/Employee Management System.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee management system/employee.db" beforeDir="false" afterPath="$PROJECT_DIR$/Employee management system/employee.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel Management System.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Management System.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel Management System/Show_type_Room.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Management System/Show_type_Room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel Management System/Check_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Management System/Check_out.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel Management System/Hotel Management System.db" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Management System/Hotel Management System.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel Management System/Hotel Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Management System/Hotel Management System.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Add_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Add_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Library.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Remove_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Remove_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/updt_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/updt_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/One for All.py" beforeDir="false" afterPath="$PROJECT_DIR$/One for All.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/Add_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Add_student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/Delete_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Delete_stu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Show_all_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_all_student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/Show_num_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_num_stu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/Show_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Show_stu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Student.db" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Student.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Student_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Student_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/Update_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Update_stu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Info/show_num_male_female_stu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/show_num_male_female_stu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,18 +67,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HQsSCCSRzvLoibFb3vETQp0mNO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/My Nakama",
+    "last_opened_file_path": "C:/Users/User/Desktop/My-Will/Employee management system",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\My-Will\Employee management system" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668230169860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Student_info.py">
+      <created>1668285956061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668285956061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,7 +133,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="python" />
-    <option name="LAST_COMMIT_MESSAGE" value="python" />
+    <MESSAGE value="Add Student_info.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Student_info.py" />
   </component>
 </project>

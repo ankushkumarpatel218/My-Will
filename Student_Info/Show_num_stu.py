@@ -4,6 +4,9 @@ con = sqlite3.connect("Student.db")
 
 
 def show_num_stu():
+    print("******************************************\n"
+          "Show Number of Students in Selected Class:\n"
+          "******************************************")
     global Class
     print("""*****************
 1. Class 1st
