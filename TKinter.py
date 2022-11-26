@@ -28,6 +28,6 @@ frame.pack(side=LEFT)
 lab = Label(frame, text='Shanks is badass!')
 lab.pack()
 
-frm = Frame(root,text="Emperor")
+frm = Frame(root)
 
 root.mainloop()

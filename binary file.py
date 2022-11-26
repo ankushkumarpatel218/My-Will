@@ -1,20 +1,20 @@
 import pickle
 
-# with open("practice.txt", 'wb') as file:
-#     dict1 = {}
-#     while True:
-#         rollno = int(input("enter rollno. "))
-#         name = input("enter name of the student:").title()
-#         Marks = float(input("enter marks:"))
-#         dict1["name"] = name
-#         dict1["Roll no."] = rollno
-#         dict1["Marks"] = Marks
-#         pickle.dump(dict1, file)
-#         print("\nData Entered Successfully!\n")
-#         if input("quit?(*) ") == "*":
-#             break
-#         else:
-#             continue
+with open("practice.txt", 'wb') as file:
+    dict1 = {}
+    while True:
+        roll = int(input("enter roll no. "))
+        name = input("enter name of the student:").title()
+        Marks = float(input("enter marks:"))
+        dict1["name"] = name
+        dict1["Roll no."] = roll
+        dict1["Marks"] = Marks
+        pickle.dump(dict1, file)
+        print("\nData Entered Successfully!\n")
+        if input("quit?(*) ") == "*":
+            break
+        else:
+            continue
 #
 with open("practice.txt", 'rb') as file:
     try:

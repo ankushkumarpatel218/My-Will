@@ -1,0 +1,9 @@
+Room type -
+
+sweat room
+private
+semi private/twin sharing
+multi-sharing/general ward
+isolation room
+
+ward no = floor_number + bed_number

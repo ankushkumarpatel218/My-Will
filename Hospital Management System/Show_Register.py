@@ -1,18 +1,19 @@
 import sqlite3
 from prettytable import PrettyTable
-con = sqlite3.connect('Hotel Management System.db')
+con = sqlite3.connect('Hospital Management System.db')
 cur = con.cursor()
 
 
 def show_register():
-    print("***************************\n"
-          "Show Register Data of Hotel -\n"
-          "***************************")
-    sql = f"Select * from Hotel_Register"
+    print("*********************\n"
+          "Show Patient Register -\n"
+          "*********************")
+    sql = f"Select * from Hospital_Register"
     cur.execute(sql)
     res = cur.fetchall()
-    header = ["Floor", "Room_number", "Guest_Name", "Payment", "No._of_Days", "No. of_Night",
-             "Check_In_Date", "Check_Out_Date"]
+    header = ['Ward_Number', 'Bed_Number', 'Room_Type', 'Patient_Name', 'Disease', 'Payment',
+              'Hospitalization_Date', 'Discharging_Date']
+
     table = PrettyTable(header)
     for i in res:
         data = list(i)

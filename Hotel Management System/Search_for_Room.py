@@ -14,9 +14,12 @@ def search_room():
             where Room_number = '{Room_number}' and Floor = 'F{floor}'"""
     cur.execute(sql)
     res = cur.fetchall()
-    header = ["Floor", "Room_number","Room_Type","Status"]
-    table = PrettyTable(header)
-    for i in res:
-        data = list(i)
-        table.add_row(data)
-    print(table)
+    if len(res) == 1:
+        header = ["Floor", "Room_number","Room_Type","Status"]
+        table = PrettyTable(header)
+        for i in res:
+            data = list(i)
+            table.add_row(data)
+        print(table)
+    else:
+        print("\nThere is no such room in the hotel!\n")

@@ -4,12 +4,12 @@ cur = con.cursor()
 
 def add_room():
     print("********************\n"
-          "Add Room in the Room -\n"
+          "Add Room in the Hotel -\n"
           "********************")
     global Room_type
     floor = input("Enter the Floor number ( 2-digits ): ").strip()
     Room_number = input("Enter the Room number ( 3-digit ): ").strip()
-    print("""    1.Delux Room
+    print("""    1.Deluxe Room
     2.Couple Room
     3.Family Room
     4.Normal Room""")

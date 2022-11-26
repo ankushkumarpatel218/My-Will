@@ -1,15 +1,15 @@
 import sqlite3
 from prettytable import PrettyTable
-con = sqlite3.connect('Hotel Management System.db')
+con = sqlite3.connect('Hospital Management System.db')
 cur = con.cursor()
 
 
-def show_alv_room():
-    sql = f"""Select * from Hotel 
+def show_alv_bed():
+    sql = f"""Select * from Hospital
             where Status = 'Available'"""
     cur.execute(sql)
     res = cur.fetchall()
-    header = ["Floor", "Room_number","Room_Type","Status"]
+    header = ['Ward_Number', 'Bed_Number', 'Room_Type', 'Status']
     table = PrettyTable(header)
     for i in res:
         data = list(i)
