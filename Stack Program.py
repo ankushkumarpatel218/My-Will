@@ -12,11 +12,14 @@ def pop(stack):
         stack.pop()
         print("\nStudent data has been Popped out!\n")
     else:
-        print("\nThere is no data to be pop!\n")
+        print("\nThe Stack is Empty!\n")
 
 
 def display(stack):
     print(f"\n{stack}\n")
+
+def peek(stack):
+    print(f"\nThe peek data of the Stack: {stack[0]}\n")
 
 
 stack = []
@@ -24,9 +27,10 @@ stack = []
 
 def Stack():
     print("****************************\n"
-          "1. Show the Stack\n"
+          "1. Display the Stack\n"
           "2. Push data into the stack\n"
           "3. Pop data from the stack\n"
+          "4. Peek Data from the Stack!\n"
           "****************************")
 
     choice = input("Enter the Stack Operation: ")
@@ -40,6 +44,10 @@ def Stack():
 
     elif choice == '3':
         pop(stack)
+        Stack()
+
+    elif choice == '4':
+        peek(stack)
         Stack()
 
 
