@@ -18,6 +18,7 @@ def pop(stack):
 def display(stack):
     print(f"\n{stack}\n")
 
+
 def peek(stack):
     print(f"\nThe peek data of the Stack: {stack[0]}\n")
 

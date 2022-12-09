@@ -5,21 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="Adding project">
+      <change afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finding prime number in range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hospital Management System.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library Security System.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pre-Board/All out war.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pre-Board/BinaryFile.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pre-Board/TextFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prime - Composite number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finding armstrong number in range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My-Will.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Will.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Add_room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Check_in.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Check_out.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Hospital Management System.db" beforeDir="false" afterPath="$PROJECT_DIR$/Hospital Management System/Hospital Management System.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Hotel Management System.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Remove_room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Search_for_Room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Show_all_Available_room.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hospital Management System/Add_bed.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hospital Management System/Add_bed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Library Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Management System.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/One for All.py" beforeDir="false" afterPath="$PROJECT_DIR$/One for All.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stack Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Info/Add_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Add_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TKinter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary file.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check whether number is armstrong or not.py" beforeDir="false" afterPath="$PROJECT_DIR$/check whether number is armstrong or not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopyImageOptionsProvider">
+    <option name="myChopIndentation" value="false" />
+    <option name="myDirectoryToSave" value="C:\Users\User\Desktop\My Will 2.0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,9 +52,6 @@
         <option value="master" />
       </list>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Student_Info/Add_student.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,19 +72,30 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/My-Will",
+    "last_opened_file_path": "C:/Users/User/Desktop/My-Will/Pre-Board",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\My-Will\Pre-Board" />
       <recent name="C:\Users\User\Desktop\My-Will" />
       <recent name="C:\Users\User\Desktop\My-Will\Employee management system" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\My-Will" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="DBNMethodRunConfiguration" />
+        <option value="DBNStatementRunConfiguration" />
+        <option value="Tox" />
+        <option value="tests" />
+      </set>
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,8 +155,18 @@
       <option name="project" value="LOCAL" />
       <updated>1669422409857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding project">
+      <created>1669425058196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669425058196</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bin" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

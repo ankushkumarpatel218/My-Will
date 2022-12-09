@@ -2,11 +2,12 @@ import sqlite3
 con = sqlite3.connect("Student.db")
 cur = con.cursor()
 
+
 def add_stu():
+    global Class
     print("***********************\n"
           "Enter New Student Data:\n"
           "***********************")
-    global Class
     admi = input("Enter Admission number ( 4-Digits ): ").strip()
     name = input("Enter Student Name:").title().strip()
     print("""*****************
@@ -22,8 +23,8 @@ def add_stu():
 10. Class 10th
 11. Class 11th
 12. Class 12th\n*****************""")
-    Choice = input("Enter Class of the student: ").strip()
-    if Choice == '1':
+    choice1 = input("Enter Class of the student: ").strip()
+    if choice1 == '1':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -32,7 +33,7 @@ B. Section-B\n**************""")
             Class = "1-A"
         elif choice == 'B':
             Class = "1-B"
-    elif Choice == '2':
+    elif choice1 == '2':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -41,7 +42,7 @@ B. Section-B\n**************""")
             Class = "2-A"
         elif choice == 'B':
             Class = "2-B"
-    elif Choice == '3':
+    elif choice1 == '3':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -50,7 +51,7 @@ B. Section-B\n**************""")
             Class = "3-A"
         elif choice == 'B':
             Class = "3-B"
-    elif Choice == '4':
+    elif choice1 == '4':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -59,7 +60,7 @@ B. Section-B\n**************""")
             Class = "4-A"
         elif choice == 'B':
             Class = "4-B"
-    elif Choice == '5':
+    elif choice1 == '5':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -68,7 +69,7 @@ B. Section-B\n**************""")
             Class = "5-A"
         elif choice == 'B':
             Class = "5-B"
-    elif Choice == '6':
+    elif choice1 == '6':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -77,7 +78,7 @@ B. Section-B\n**************""")
             Class = "6-A"
         elif choice == 'B':
             Class = "6-B"
-    elif Choice == '7':
+    elif choice1 == '7':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -86,7 +87,7 @@ B. Section-B\n**************""")
             Class = "7-A"
         elif choice == 'B':
             Class = "7-B"
-    elif Choice == '8':
+    elif choice1 == '8':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -95,7 +96,7 @@ B. Section-B\n**************""")
             Class = "8-A"
         elif choice == 'B':
             Class = "8-B"
-    elif Choice == '9':
+    elif choice1 == '9':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -104,7 +105,7 @@ B. Section-B\n**************""")
             Class = "9-A"
         elif choice == 'B':
             Class = "9-B"
-    elif Choice == '10':
+    elif choice1 == '10':
         print("""**************
 A. Section-A
 B. Section-B\n**************""")
@@ -113,7 +114,7 @@ B. Section-B\n**************""")
             Class = "10-A"
         elif choice == 'B':
             Class = "10-B"
-    elif Choice == '11':
+    elif choice1 == '11':
         print("""************
 A. Science
 B. Commerce
@@ -125,7 +126,7 @@ C. Arts\n************""")
             Class = "11th Commerce"
         elif choice == 'C':
             Class = "11th Arts"
-    elif Choice == '12':
+    elif choice1 == '12':
         print("""************
 A. Science
 B. Commerce

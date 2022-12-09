@@ -1,8 +1,7 @@
-x = input('Enter number: ')
+x = int(input('Enter number: '))
 list1 = []
-for i in x:
-    n = int(i)
-    n1 = n**3
+for i in str(x):
+    n1 = int(i) ** 3
     list1.append(n1)
 
 Sum = sum(list1)
