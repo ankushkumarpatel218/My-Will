@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="Adding project">
-      <change afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Finding prime number in range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hospital Management System.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Security System.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pre-Board/All out war.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pre-Board/BinaryFile.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pre-Board/TextFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prime - Composite number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finding armstrong number in range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My-Will.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Will.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System/Add_bed.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hospital Management System/Add_bed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Library Management System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library Management System.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/One for All.py" beforeDir="false" afterPath="$PROJECT_DIR$/One for All.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack Program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Info/Add_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Info/Add_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKinter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary file.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check whether number is armstrong or not.py" beforeDir="false" afterPath="$PROJECT_DIR$/check whether number is armstrong or not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Issue_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Issue_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Library.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management System/Return_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Return_book.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,16 +50,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/My-Will/Pre-Board",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/My-Will/Pre-Board&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\My-Will\Pre-Board" />
@@ -162,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669425058196</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding project">
+      <created>1670544025527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670544025527</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding project">
+      <created>1670544052866</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670544052866</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">

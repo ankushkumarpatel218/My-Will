@@ -13,7 +13,7 @@ def return_book():
     cur.execute(sql)
     res = cur.fetchone()
     if res == None:
-        print(f"\nThere is no Book with BookID {book_id}!\n")
+        print(f"\nThere is no Book with BookID {book_id} has issued!\n")
     else:
         now = datetime.datetime.now()
         return_date = now.strftime(f"%d/%m/{20}%y")

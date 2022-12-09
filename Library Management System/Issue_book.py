@@ -25,7 +25,10 @@ def issue_book():
     cur.execute(sql)
     con.commit()
     data = cur.fetchone()
-    book_name = data[0]
+    try:
+        book_name = data[0]
+    except Exception:
+        print("\nWrong Book ID!\n")
     if data[5] == "Available":
 
         insert = f"""insert into Register 
@@ -40,4 +43,3 @@ def issue_book():
 
     else:
         print("\nThis Book is already Issued by someone!")
-        issue_book()
