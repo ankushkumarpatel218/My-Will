@@ -1,3 +1,0 @@
-This is my text file
-I am python programmer
-nice to meet you!
