@@ -6,3 +6,5 @@ for i in range(n+1):
     series.append(num2)
 Sum = sum(series)
 print(f"1+{num1}**1+{num1}**2+...+{num1}**{n} = {Sum}")
+
+

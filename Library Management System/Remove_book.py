@@ -7,7 +7,19 @@ def Remove_book():
     print("*********************\n"
           "Removing a Book Data-\n"
           "*********************")
-    book_id = input("Enter the book ID ( 4-Digit ): ").strip()
+    Condition = True
+    while Condition:
+        try:
+            book_id = input('Enter Book ID ( 4-digit ):').strip()
+            if len(book_id) == 4:
+                int(book_id)
+                Condition = False
+            else:
+                print("\nBook ID must be 4 digits\nPls Try Again!\n")
+                continue
+        except Exception as e:
+            print("\nThe Book ID must be Number!\n")
+            continue
     sql = f"select * from Library where BookID = '{book_id}'"
     cur.execute(sql)
     res = cur.fetchall()

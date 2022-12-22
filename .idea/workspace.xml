@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fee85eb-79f5-481d-ab8d-6e9c3ab0098c" name="Changes" comment="Adding project">
-      <change afterPath="$PROJECT_DIR$/web development/Web developmen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web development/Web.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital Management System.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Hospital Management System.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1+x+x2+x3+x4+ .... +xn.py" beforeDir="false" afterPath="$PROJECT_DIR$/1+x+x2+x3+x4+ .... +xn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management System/Add_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Add_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Issue_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Issue_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Management System/Library.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management System/Library.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/One for All.py" beforeDir="false" afterPath="$PROJECT_DIR$/One for All.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check the no is prime or composite .py" beforeDir="false" afterPath="$PROJECT_DIR$/check the no is prime or composite .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web development/Web developmen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web development/Web developmen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/User/Downloads/newfile.py",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">

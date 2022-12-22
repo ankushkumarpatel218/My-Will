@@ -9,9 +9,16 @@ def show_aut_books():
     print("*****************************************\n"
           "Show the all books of Particular Author -\n"
           "*****************************************")
-    author_name = input("Enter the Author Name: ").title().strip()
+    Condition = True
+    while Condition:
+        author = input("Enter the Author of the book: ").strip().title()
+        if len(author) == 0:
+            print("\nAuthor must be at least 1 character\nPls Try Again!\n")
+            continue
+        else:
+            Condition = False
     sql = f"""Select * from library 
-                where author = '{author_name}'"""
+                where author = '{author}'"""
     cur.execute(sql)
     res = cur.fetchall()
     con.commit()

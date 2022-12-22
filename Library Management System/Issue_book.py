@@ -17,29 +17,46 @@ def issue_book():
     except Exception:
         num_data = 0
     acc_no = 1001 + num_data
-    while True:
-        issuer_id = input("Enter the Issuer Id ( 5-digit ): ").strip()
-        if len(issuer_id) == 5:
-            pass
-        else:
-            print("\nInvalid Issuer Id!\nPls try Again!\n")
-            input("Press any key to continue...")
+    Condition = True
+    while Condition:
+        try:
+            issuer_id = input("Enter the Issuer Id ( 5-digit ): ").strip()
+            if len(issuer_id) == 5:
+                int(issuer_id)
+                Condition = False
+            else:
+                print("\nInvalid Issuer Id!\nPls try Again!\n")
+                continue
+        except Exception as e:
+            print("\nThe Issuer ID must be Number!\n")
             continue
-    while True:
+    Condition = True
+    while Condition:
         issuer_name = input("Enter the Issuer's Name: ").title().strip()
         if len(issuer_name) == 0:
             print("\nInvalid Issuer Name!\nPls try Again!\n")
-            input("Press any key to continue...")
             continue
         else:
-            pass
+            Condition = False
 
     now = datetime.datetime.now()
     status = 'Issued'
     return1 = 'None'
     issued_date = now.strftime(f"%d/%m/{20}%y")
-    while True:
-        book_id = input('Enter Book ID ( 4-digit ):').strip()
+
+    Condition = True
+    while Condition:
+        try:
+            book_id = input('Enter Book ID ( 4-digit ):').strip()
+            if len(book_id) == 4:
+                int(book_id)
+                Condition = False
+            else:
+                print("\nBook ID must be 4 digits\nPls Try Again!\n")
+                continue
+        except Exception as e:
+            print("\nThe Book ID must be Number!\n")
+            continue
         sql = f"""select * from Library where BookID = '{book_id}'"""
         cur.execute(sql)
         con.commit()

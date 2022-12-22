@@ -1,6 +1,6 @@
 months = ['January', 'February', 'March', 'April', 'May', 'June',
           'July', 'August', 'September', 'October', 'November', 'December']
-user = input("input the month: ").title()
+user = input("input the month: ").title().strip()
 
 if user in months:
     if user in ['January', 'March', 'May', 'July', 'August', 'October', 'December']:

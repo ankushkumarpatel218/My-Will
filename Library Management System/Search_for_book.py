@@ -5,9 +5,17 @@ cur = con.cursor()
 
 #
 def search_book():
-    book_name = input("Enter Book Name: ").title().strip()
+    Condition = True
+    while Condition:
+        book_name = input('Enter Book name:').title().strip()
+        if len(book_name) == 0:
+            print("\nBook Name must be at least 1 character\nPls Try Again!\n")
+            continue
+        else:
+            Condition = False  
+              
     sql = f"""select * from Library 
-            where Book_name = '{book_name}' and Status = 'Available'"""
+    where Book_name = '{book_name}' and Status = 'Available'"""
     cur.execute(sql)
     res = cur.fetchall()
     num_data = len(res)

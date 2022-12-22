@@ -95,7 +95,7 @@ def library():
           "Enter Your Password Library Admin: -\n"
           "*********************************")
     password = input(">>> ").strip()
-    with open("Library Admin Password.txt", "r") as admin:
+    with open("C:\\Users\\User\\Desktop\\My-Will\\Library Management System\\Library Admin Password.txt", "r") as admin:
         read1 = admin.read()
         if password == read1:
             main()
