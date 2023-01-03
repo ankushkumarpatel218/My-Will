@@ -16,3 +16,7 @@ else:
         if i in list2:
             list3.append(i)
     print(f"common elements:{list3}")
+
+
+
+

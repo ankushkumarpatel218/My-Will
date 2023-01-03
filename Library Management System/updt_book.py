@@ -63,9 +63,8 @@ def update_book():
                     continue
                 else:
                     Condition = False
-            sql = f"""update Library set
-                            Book_name = '{book_name}'
-                            where BookID = '{book_id}'"""
+            sql = f"""update Library set Book_name = '{book_name}'
+                      where BookID = '{book_id}'"""
             cur.execute(sql)
             con.commit()
             print("\nData Updated Successfully!")
@@ -84,9 +83,8 @@ def update_book():
                 except Exception as e:
                     print("\nThe Book ID must be Number!\n")
                     continue
-            sql = f"""update Library
-                            set BookID = '{New_book_Id}'
-                            where BookID = '{book_id}'"""
+            sql = f"""update Library set BookID = '{New_book_Id}'
+                      where BookID = '{book_id}'"""
             cur.execute(sql)
             con.commit()
             print("\nData Updated Successfully!")
@@ -101,9 +99,7 @@ def update_book():
                     continue
                 else:
                     Condition = False
-            sql = f"""update Library set
-                            Author= '{author}'
-                            where BookID = '{book_id}'"""
+            sql = f"""update Library set Author= '{author}' where BookID = '{book_id}'"""
             cur.execute(sql)
             con.commit()
             print("\nData Updated Successfully!\n")
@@ -118,9 +114,8 @@ def update_book():
 
                 else:
                     Condition = False
-            sql = f"""update Library set
-                             Pub_Name = '{pub_name}'
-                            where BookID = '{book_id}'"""
+            sql = f"""update Library set Pub_Name = '{pub_name}' 
+                      where BookID = '{book_id}'"""
             cur.execute(sql)
             con.commit()
             print("\nData Updated Successfully!\n")

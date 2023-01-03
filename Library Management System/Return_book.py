@@ -32,12 +32,14 @@ def return_book():
         status = 'Issued'
         if res[5] == status:
             issuer_id = input("Enter Issuer ID ( 5-Digit ): ").strip()
-            Return = f"""Update Register set Status = 'Returned', Return_Date = '{return_date}' 
-                                    where BookID = '{book_id}' and Issuer_ID = '{issuer_id}'"""
+            Return = f"""Update Register set Status = 'Returned',
+                         Return_Date = '{return_date}' 
+                        where BookID = '{book_id}' and Issuer_ID = '{issuer_id}'"""
             cur.execute(Return)
-
-            Return1 = f"""Update Library set Status = 'Available'
-                                    where BookID = '{book_id}'"""
+            
+            Return1 = f"""Update Library set Status = 'Available' 
+                          where BookID = '{book_id}'"""
+            
             cur.execute(Return1)
             con.commit()
             print("\nThe Book Returned Successfully!")

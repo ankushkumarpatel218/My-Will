@@ -3,7 +3,7 @@ from prettytable import PrettyTable
 con = sqlite3.connect('Library.db')
 cur = con.cursor()
 
-# Show the all Books Which are not Returned yet
+# Show The Library Register
 def show_register():
     sql = f"Select * from Register"
     cur.execute(sql)

@@ -25,8 +25,7 @@ def show_pub_books():
         except Exception as e:
             print("\nThe Publisher ID must be Number!\n")
             continue
-    sql = f"""Select * from Library
-               where PubID = '{pub_id}'"""
+    sql = f"""Select * from Library where PubID = '{pub_id}'"""
     cur.execute(sql)
     res = cur.fetchall()
     con.commit()

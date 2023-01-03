@@ -13,5 +13,10 @@
             "username": "sqluser",
             "password": "password"
         }
-    ]
+    ],
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.customCommand": "run/",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": false,
+    "code-runner.saveFileBeforeRun": true
 }

@@ -19,4 +19,4 @@ elif total <= 70:
 elif total <= 60:
     print("\nbhai ye le chai wale job ka form")
 else:
-    print("\nSharma ji ke ladke ko dekh 99% laya h!")
+    print("\nSharma ji ke ladke ne 99% laya h!")

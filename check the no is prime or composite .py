@@ -12,3 +12,10 @@ elif Len == 2:
     print(f"{x} is a prime number")
 else:
     print(f'{x} is neither composite nor prime')
+
+
+
+
+
+
+
