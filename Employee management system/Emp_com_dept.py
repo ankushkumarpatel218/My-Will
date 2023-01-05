@@ -13,7 +13,7 @@ def com_dept_emp():
     cur.execute(sql)
     res = cur.fetchall()
     len1 = len(res)
-    header = ['Department_no', 'Employee_Name', 'EmployeeID', 'Role',
+    header = ['Department_no', 'EmployeeID', 'Employee_Name', 'Role',
               'Employee_City', 'Salary', 'Date_of_birth', 'Phone_Number','Gender']
     table = PrettyTable(header)
     for i in res:
