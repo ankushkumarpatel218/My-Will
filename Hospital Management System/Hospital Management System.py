@@ -61,8 +61,7 @@ def main():
     elif choice == '9':
         show_com_disease()
         main()
-
-
+        
     else:
         print("Wrong Option! Pls try Again")
         main()
@@ -70,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

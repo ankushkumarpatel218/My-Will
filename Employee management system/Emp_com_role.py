@@ -20,3 +20,9 @@ def com_role_emp():
         table.add_row(i)
     print(f"The Number of Employees who are {role} = {len1}")
     print(table)
+
+
+
+
+
+

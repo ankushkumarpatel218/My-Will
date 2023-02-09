@@ -21,9 +21,8 @@ with open("practice.txt", 'wb') as file:
 
 with open("practice.txt", 'rb') as file:
     try:
-        file.seek(0)
-        read = pickle.load(file)
-        print(read)
+        while True:
+            read = pickle.load(file)
     except EOFError:
         pass
 

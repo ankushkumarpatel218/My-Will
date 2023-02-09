@@ -19,14 +19,15 @@ def search_bed():
     cur.execute(sql1)
     res = cur.fetchone()
     if res[0] == 'Occupied':
-        sql1 = f"""Select Ward_Number,Bed_Number,Patient_Name,Disease,Hospitalization_Date from Hospital_Register
+        sql1 = f"""Select Ward_Number,Bed_Number,Patient_Name,Disease,Hospitalization_Date
+                from Hospital_Register
                 where Ward_Number = '{ward_number}' 
                 and Bed_Number = '{bed_number}'"""
         cur.execute(sql1)
         res = cur.fetchall()
         if len(res) == 1:
-            header = ['Ward_Number', 'Bed_Number', 'Patient_Name', 'Disease', 'Hospitalization_Date']
-
+            header = ['Ward_Number', 'Bed_Number', 'Patient_Name',
+                      'Disease', 'Hospitalization_Date']
             table = PrettyTable(header)
             for i in res:
                 data = list(i)

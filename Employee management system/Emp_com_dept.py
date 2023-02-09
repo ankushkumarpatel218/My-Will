@@ -20,3 +20,9 @@ def com_dept_emp():
         table.add_row(i)
     print(f"The Number of Employees in Department D{dept} = {len1}")
     print(table)
+
+
+
+
+
+

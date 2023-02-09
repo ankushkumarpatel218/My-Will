@@ -10,8 +10,9 @@ def show_com_disease():
           "*************************************")
     disease = input("Enter the name of the disease: ").strip().title()
 
-    sql1 = f"""Select Ward_Number,Bed_Number,Patient_Name,Disease,Hospitalization_Date from Hospital_Register
-                    where Disease = '{disease}'"""
+    sql1 = f"""Select Ward_Number,Bed_Number,Patient_Name,Disease,Hospitalization_Date
+                from Hospital_Register
+                where Disease = '{disease}'"""
     cur.execute(sql1)
     res = cur.fetchall()
     if len(res) > 0:
@@ -22,7 +23,8 @@ def show_com_disease():
             con.commit()
             res1 = cur.fetchone()
             if res1[-1] == 'Occupied':
-                header = ['Ward_Number', 'Bed_Number', 'Patient_Name', 'Disease', 'Hospitalization_Date']
+                header = ['Ward_Number', 'Bed_Number', 'Patient_Name',
+                          'Disease', 'Hospitalization_Date']
                 table = PrettyTable(header)
                 data = list(data)
                 table.add_row(data)

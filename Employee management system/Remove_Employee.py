@@ -20,3 +20,12 @@ def remove_emp():
 
     else:
         print(f"\nThere is no employee with empID E{emp_id} in the company!\n")
+
+
+
+
+
+
+
+
+

@@ -21,13 +21,16 @@ def add_emp():
         emp_city = input("Enter the Employee City: ").title().strip()
         Salary = input("Enter the Employee's Starting Salary: ₹").strip()
         dob = input("Enter the Employee's date of Birth ( DD/MM/YYYY ): ").strip()
-        phno = input("Enter the Employee's phone number: ").strip()
+        phone_no = input("Enter the Employee's phone number: ").strip()
         gender = input("Enter the Gender of the Employee: ").strip().title()
 
         insert = f"""insert into Employee
                     values('D{dept}','E{emp_id}','{emp_name}','{role}','{emp_city}',
-                    '₹{Salary}','{dob}','{phno}','{gender}')"""
+                    '₹{Salary}','{dob}','{phone_no}','{gender}')"""
         cur.execute(insert)
         con.commit()
         print("\nEmployee has been Added!\n")
+        
+        
+        
 

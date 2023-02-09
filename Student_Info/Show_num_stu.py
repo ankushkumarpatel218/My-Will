@@ -5,7 +5,7 @@ con = sqlite3.connect("Student.db")
 
 def show_num_stu():
     print("******************************************\n"
-          "Show Number of Students in Selected Class:\n"
+          "Show Number of Students of Selected Class:\n"
           "******************************************")
     global Class
     print("""*****************
@@ -149,5 +149,5 @@ C. Arts\n************""")
     for i in res:
         data = list(i)
         table.add_row(data)
-    print(f'\nThe total number of student in class {Class}: {total}')
+    print(f'The total number of student in class {Class}: {total}')
     print(table)

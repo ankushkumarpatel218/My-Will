@@ -18,7 +18,7 @@ def discharge():
     bed_number = input("Enter the Bed number ( 2-digits ): ").strip()
 
     sql1 = f"""Select Status,Room_Type from Hospital
-                        where Ward_Number = '{ward_number}' and Bed_Number = '{bed_number}'"""
+                where Ward_Number = '{ward_number}' and Bed_Number = '{bed_number}'"""
     cur.execute(sql1)
     res = cur.fetchone()
     if res[0] == 'Occupied':

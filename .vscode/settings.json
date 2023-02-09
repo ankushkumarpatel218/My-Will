@@ -18,5 +18,6 @@
     "code-runner.customCommand": "run/",
     "code-runner.runInTerminal": true,
     "code-runner.saveAllFilesBeforeRun": false,
-    "code-runner.saveFileBeforeRun": true
+    "code-runner.saveFileBeforeRun": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
